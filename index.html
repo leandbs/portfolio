@@ -1,9 +1,475 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
 <head>
-    <meta charset="uft-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script type="module" src="js/script.js"></script>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/anime.css">
+
+  <style>
+    body {
+      background-image: url('img/portfoliofundo.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      height: 100vw;
+    }
+  </style>
+  <title>Portfólio</title>
 </head>
-<body>
+
+<body id="page-top">
+  <header>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light">
+      <div class="container centro">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#sobre">Início</a>
+            <a class="nav-link" href="#projetos">Projetos</a>
+            <a class="nav-link" href="#trajetoria">Trajetoria</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </div>
+  </header>
+  <section id="sobre">
+    <article>
+      <div>
+        <div class="row">
+          <div class="col-md-6">
+            <p><img id="foto-img" src="img/portfolio.jpg" width="120"> </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <div class="alert alert-info">
+              <h1>Portfólio</h1>
+              <h6>Ultima atualização 24/12/2024</h6>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div data-anime="anime-visible">
+            <h3 class="alert alert-primary">Um pouco sobre</h3><br>
+            <p> Olá, meu nome é <strong>Leandro Barbosa de Souza</strong>, atualmente estou trabalhando na empresa G4F
+              tecnologia como analista de suporte, tenho experiência de 20 anos na área de TI, porém estou
+              focando na área de desenvolvimento, é procurando oportunidades que me faça ganhar experiência e
+              novas habilidades na área que me formei.</p>
+            <hr>
+          </div>
+          <div data-anime="anime-1">
+            <p>Hoje possuo graduação em <strong>Analise e Desenvolvimento de Sistema, Pós-Graduação em Mobile
+                Development</strong>.</p>
+            <p>As minhas principais habilidades consistem em raciocínio lógico, capacidade analítica e pensamento
+              criativo
+              para
+              resolver os mais diversos problemas.</p>
+          </div>
+          <hr>
+          
+          <div class="" data-anime="anime-2">
+            <div class="col-md-10" >
+              <p class="borda font-tam"  id=""><strong>Tecnologias que tenho mais prática </strong></p>
+              <div class="" id="">
+                <img class="imgtitulo" src="img/php.svg" atl="php" title="PHP">
+                <img class="imgtitulo" src="img/javascript.svg" atl="javascript" title="javascript">
+                <img class="imgtitulo" src="img/html.svg" atl="html" title="HTML"> <img class="imgtitulo"
+                  src="img/css.svg" atl="css" title="CSS">
+                <img class="imgtitulo" src="img/bootstrap.svg" atl="bootstrap" title="BOOTSTRAP"> <img class="imgtitulo"
+                  src="img/mysql.svg" atl="mysql" title="MYSQL">
+              </div>
+              <br>
+              <p class="borda font-tam" id=""><strong>Tecnologias que estou me especializando</strong></p>
+              <div id="">
+                <img class="imgtitulo" src="img/nodejs.svg" atl="nodejs" title="NODEJS">
+                <img class="imgtitulo" src="img/react.svg" atl="react" title="REACT">
+                <img class="imgtitulo" src="img/react-na.svg" atl="react native" title="REACT NATIVE">
+                <img class="imgtitulo" src="img/file_type_typescript.svg" atl="typeScript" title="TypeScript">
+                <img class="imgtitulo" src="img/sharp_c_icon_211998.svg" atl="C-Sharp" title="C-Sharp">
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        <hr>
+      </div>
+    </article>
+  </section>
+  <p id="projetos"></p>
+  <section class="projeto">
+    <h2 class="alert alert-primary">Projetos</h2>
+    <div class="card-group">
+      <div class="card" data-anime="right">
+        <a href="http://lbscode.com.br/projetos/pages/portaria/portaria.php"
+          alt="..." target="_black" title="Modelo Landing page"><img src="img/entrada.jpg"
+            class="card-img-top borda-img" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Modelo - Desktop </h5>
+          <p class="card-text text-muted card-texto">
+            <b>Projeto de controle de acesso</b>
+            Cadastro:<wbr>(visitante, acesso, ramais, etc...).
+               User:administrador senha:123admin- Visualizar e cadastrar.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted card-texto">HTML5,CSS,BOOTSTRAP,JAVASCRIPT,PHP,MYSQL</small>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Anote o usuário para teste</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+              </div>
+              <div class="modal-body">
+                User: Administrador Password: 123admin
+              </div>
+              <div class="modal-footer">
+                <a href="#" alt="..." target="_black" title="Modelo Landing page"><button type="button"
+                    class="btn btn-secondary" data-bs-dismiss="modal">Close</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card" data-anime="top">
+        <a href="http://lbscode.com.br/projetos/pages/produto/"
+          alt="..." target="_black" title="Modelo Landing page"><img src="img/produto.jpg"
+            class="card-img-top borda-img" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Landing page - Produto</h5>
+          <p class="card-text text-muted card-texto">Modelo de landing page para apresentação de produto.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted card-texto">HTML5,CSS,BOOTSTRAP,JAVASCRIPT.</small>
+        </div>
+      </div>
+      <div class="card" data-anime="right">
+        <a href="http://lbscode.com.br/projetos/pages/parallax/"
+          alt="..." target="_black" title="Modelo Landing page"><img src="img/parallax.jpg"
+            class="card-img-top borda-img" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Landing page - Serviço</h5>
+          <p class="card-text text-muted card-texto">Modelo de landing page para apresentação de prestação de serviço.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted card-texto">HTML5,CSS,BOOTSTRAP,JAVASCRIPT.</small>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="borda3d" data-anime="right">
+      <div class="card-body">
+        <h5 class="card-title">Meus projetos</h5>
+        <p class="card-text"></p>
+        <a href="https://github.com/leandbs2022" target="_blank" class="btn btn-outline-success efeito efeito-1"><img
+            src="img/github.png"></a>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <p id="trajetoria"></p>
+  <section class="trajetoria">
+    <h1 class="alert alert-primary">Trajetória</h1>
+    <div class="container">
+      <div class="row" data-anime="left">
+        <div class="col-md-12 div2">
+          <!--Item 1-->
+          <div class="main-timeline" id="1">
+            <div class="timeline">
+              <a href="https://www.udemy.com/" class="timeline-content">
+                <div class="timeline-icon"><img class="img-gif" src="img/frontend.png" alt="full"></div>
+                <div class="timeline-year">2024</div>
+                <h3 class="title">Front End</h3>
+                <h3 class="title">HTML/CSS/Javascrit<br>React/typeScript</h3>
+                <p class="description">
+                  <h6>Instituição: Udemy</h6>
+                  <h6>Início:24/12/2024 - Cursando <br>Previsão de conclusão: 10/03/2025<br>Carga Horária:50h</h6>
+                </p>
+              </a>
+              <div class="wrapper" id="cor-paleta">
+                <a href="#modal-1" class="">Unidades curriculares</a>
+              </div>
+              <div id="modal-1" class="modal">
+                <div class="moda__content  alert alert-light">
+                  <ul class="list">
+                    <ul class="alert alert-secondary">
+                      <li>HTML e CSS</li>
+                      <li>JavaScript</li>
+                      <li>React</li>
+                      <li>E uma imersão em TypeScript com foco em React.</li>
+                    </ul>
+                  </ul>
+                  <div class="moda__footer">
+                    <a href="#1" class="moda__footer-btn-close"><button
+                        class="btn btn-outline-secondary">Voltar</button></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!--Item 2-->
+            <div class="timeline" id="2">
+              <a href="https://www.portaldaindustria.com.br/senai/" class="timeline-content">
+                <div class="timeline-icon"><img class="img-gif" src="img/estudando.png" alt="full"></div>
+                <div class="timeline-year">2023</div>
+                <h3 class="title">Programador Full Stack</h3>
+                <p class="description">
+                  <h6>Instituição: SENAI - Serviço Nacional de Aprendizagem Industrial</h6>
+                  <h6><img src="img/certificate.svg" style="width:35px;" alt="Completo" title="Curso completo">
+                    Curso Completo <br>Carga Horária:640h</h6>
+                </p>
+              </a>
+              <div class="wrapper">
+                <a href="#modal-2">Unidades curriculares</a>
+              </div>
+              <div id="modal-2" class="modal">
+                <div class="moda__content  alert alert-light">
+                  <iframe src="img/fullstack.jpeg" width="600px" height="490px" style="border:none;"></iframe>
+                  <div class="moda__footer">
+                    <a href="#2" class="moda__footer-btn-close"><button
+                        class="btn btn-outline-secondary">Voltar</button></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Inicio 1-->
+    <div class="container">
+      <div class="row" data-anime="top">
+        <div class="col-md-12 div2">
+          <!--Item 1-->
+          <div class="main-timeline" id="3">
+            <div class="timeline">
+              <a href="https://www.portaldaindustria.com.br/senai/" target="_blank" class="timeline-content">
+                <div class="timeline-icon"><img src="img/icons8-logo-php.svg"></div>
+                <div class="timeline-year">2022</div>
+                <h3 class="title">Desenvolvendor Backend PHP</h3>
+                <p class="description">
+                  <h6>Instituição: SENAI - Serviço Nacional de Aprendizagem Industrial</h6>
+                  <h6><img src="img/certificate.svg" style="width:35px;" alt="Completo" title="Curso completo"> Curso
+                    Completo <br>Carga Horária:200h</h6>
+                </p>
+              </a>
+              <div class="wrapper" id="cor-paleta">
+                <a href="#modal-3">Unidades curriculares</a>
+              </div>
+              <div id="modal-3" class="modal">
+                <div class="moda__content  alert alert-light">
+                  <iframe src="img/php.jpg" width="600px" height="500px" style="border: none;"></iframe>
+                  <div class="moda__footer">
+                    <a href="#3" class="moda__footer-btn-close"><button
+                        class="btn btn-outline-secondary">Voltar</button></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!--Item 2-->
+            <div class="timeline" id="4">
+              <a href="https://www.cursoemvideo.com/curso/" target="_blank" class="timeline-content">
+                <div class="timeline-icon"><img class="img-png-1" src="img/html.svg"></div>
+                <div class="timeline-year">2022</div>
+                <h3 class="title">HTML5</h3>
+                <p class="description">
+                  <h6>Curso - Ganabara (Goggle)</h6>
+                  <h6><img src="img/certificate.svg" style="width:35px;" alt="Completo" title="Curso completo"> Curso
+                    Completo <br>Carga Horária:40h</h6>
+                </p>
+              </a>
+              <div class="wrapper">
+                <a href="#modal-4">Unidades curriculares</a>
+              </div>
+              <div id="modal-4" class="modal">
+                <div class="moda__content  alert alert-light">
+                  <ul class="list">
+                    <ul class="alert alert-secondary">
+                      <li><a href="https://www.cursoemvideo.com/curso/html5/" target="_blank">Link do curso HTML5</a>
+                      </li>
+                    </ul>
+                  </ul>
+                  <div class="moda__footer">
+                    <a href="#4" class="moda__footer-btn-close"><button
+                        class="btn btn-outline-secondary">Voltar</button></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!--Inicio 2-->
+      <div class="row" data-anime="right">
+        <div class="col-md-12 div2">
+          <!--Item 1-->
+          <div class="main-timeline" id="5">
+            <div class="timeline">
+              <a href="https://www.cursoemvideo.com/curso/" target="_blank" class="timeline-content">
+                <div class="timeline-icon"><img src="img/icons8-javascript.svg"></div>
+                <div class="timeline-year">2022</div>
+                <h3 class="title">JavaScript</h3>
+                <p class="description">
+                  <h6> Curso - Ganabara (Goggle)</h6>
+                  <h6><img src="img/certificate.svg" style="width:35px;" alt="Completo" title="Curso completo"> Curso
+                    Completo <br>Carga Horária:40h</h6>
+                </p>
+              </a>
+              <div class="wrapper " id="cor-paleta">
+                <a href="#modal-5">Unidades curriculares</a>
+              </div>
+              <div id="modal-5" class="modal">
+                <div class="moda__content  alert alert-light">
+                  <ul class="list">
+                    <ul class="alert alert-secondary">
+                      <li><a href="https://www.cursoemvideo.com/curso/javascript/" target="_blank">Link do curso
+                          Javascript</a></li>
+                    </ul>
+                  </ul>
+                  <div class="moda__footer">
+                    <a href="#5" class="moda__footer-btn-close"><button
+                        class="btn btn-outline-secondary">Voltar</button></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!--Item 2-->
+            <div class="timeline" id="6">
+              <a href="https://fael.edu.br/" target="_blank" class="timeline-content">
+                <div class="timeline-icon"><img src="img/unifael.jpg" width="70"></div>
+                <div class="timeline-year">2022</div>
+                <h3 class="title">Mobile Development</h3>
+                <p class="description">
+                  <h6>Instituição: UNIFAEL - PR |
+                    Pos-Graduação</h6>
+                  <h6><img src="img/graduate.svg" style="width:35px;" alt="Completo" title="Curso completo">
+                    Pos-Graduação Completa <br>Carga Horária:560h</h6>
+                </p>
+              </a>
+              <div class="wrapper">
+                <a href="#modal-6">Unidades curriculares</a>
+              </div>
+              <div id="modal-6" class="modal">
+                <div class="moda__content  alert alert-light">
+                  <iframe src="img/pos.jpg" width="420" height="220" style="border: none;"></iframe>
+                  <div class="moda__footer">
+                    <a href="#6" class="moda__footer-btn-close"><button
+                        class="btn btn-outline-secondary">Voltar</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!--Item 3-->
+      <div class="row" data-anime="left">
+        <div class="col-md-12 div2">
+          <!--Item 1-->
+          <div class="main-timeline" id="7">
+            <div class="timeline">
+              <a href="https://fael.edu.br/" target="_blank" class="timeline-content">
+                <div class="timeline-icon"><img src="img/fael.png"></div>
+                <div class="timeline-year">2021</div>
+                <h3 class="title">Analise de Desenvolvimento de Sistemas</h3>
+                <p class="description">
+                  <h6>Instituição: FAEL Faculdade Educacional da Lapa - RJ Graduação</h6>
+                  <h6><img src="img/graduate.svg" style="width:35px;" alt="Completo" title="Curso completo"> Graduação
+                    Completa <br>Carga Horária:2000h</h6>
+                </p>
+              </a>
+              <div class="wrapper" id="cor-paleta">
+                <a href="#modal-7">Unidades curriculares</a>
+              </div>
+              <div id="modal-7" class="modal">
+                <div class="moda__content  alert alert-light">
+                  <div>
+                    <iframe src="img/graduacao.jpeg" width="600px" height="auto" style="border: none;"></iframe>
+                  </div>
+                  <div class="moda__footer">
+                    <a href="#7" class="moda__footer-btn-close"><button
+                        class="btn btn-outline-secondary">Voltar</button></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!--Item 2-->
+            <div class="timeline" id="8" data-anime="">
+              <a href="https://www.portaldaindustria.com.br/senai/" target="_blank" class="timeline-content">
+                <div class="timeline-icon"><img src="img/icons8-logo-java-coffee-cup.svg"></div>
+                <div class="timeline-year">2020</div>
+                <h3 class="title">Desenvolvendor Java</h3>
+                <p class="description">
+                  <h6>Instituição: SENAI - Serviço Nacional de Aprendizagem Industrial</h6>
+                  <h6><img src="img/certificate.svg" style="width:35px;" alt="Completo" title="Curso completo"> Curso
+                    Completo<br>Carga Horária:200h</h6>
+                </p>
+              </a>
+              <div class="wrapper">
+                <a href="#modal-8">Unidades curriculares</a>
+              </div>
+              <div id="modal-8" class="modal">
+                <div class="moda__content  alert alert-light">
+                  <iframe src="img/java.jpeg" width="auto" height="200px" style="border: none;"></iframe>
+                  <div class="moda__footer">
+                    <a href="#8" class="moda__footer-btn-close"><button
+                        class="btn btn-outline-secondary">Voltar</button></a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#sobre" class="" id=""><button id="btn-final" class="card-img-top"><img class="img-voltar"
+          src="img/voltar1.jpg"></button></a>
+  </section>
+  <script src="js/script.js"></script>
+  <footer class="" id="contato">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=556184626016&text=Entre em contato e faça um orçamento" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+        z-index:1000;" target="_blank">
+      <i style="margin-top:16px" class="" title="whatsapp"><img src="img/socialwhatsapp.png"></i>
+    </a>
+    <!--<p title="Contato: leandbs@hotmail.com"  class="alert alert-link"> Desenvolvido por: Leandro Barbosa de Souza</p>-->
+  </footer>
 
 </body>
+
 </html>
