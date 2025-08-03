@@ -33,7 +33,11 @@ p {
     font-style: normal;
     font-style: italic;
 }
-
+#git_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+}
 .tecimg {
     margin: 0 auto;
     width: 500px;
@@ -156,6 +160,8 @@ a {
     display: flex;
     flex-direction: row;
     position: relative;
+    align-items: center;
+    text-align: center;
 }
 @keyframes revealBlock {
     from {
@@ -490,10 +496,9 @@ footer {
     opacity: 1;
     animation: move-img 4s both;
 }
-
 @keyframes move-img {
     10% {
-        transform: translate3d(0, 0, 50px);
+        transform: translate3d(0, 0, 25px);
     }
 }
 
